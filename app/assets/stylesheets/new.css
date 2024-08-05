@@ -1,0 +1,88 @@
+/* Style for the form */
+form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #d4e6f1 0%, #b3cde0 100%);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+form input[type="text"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+  background-color: #f1f1f1;
+}
+
+form textarea {
+  height: 120px;
+}
+
+form input[type="submit"] {
+  width: auto;
+  padding: 12px 25px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+/* Style for the link to go back to the index page */
+div {
+  text-align: center;
+  margin-top: 30px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Additional styling for a consistent look */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
