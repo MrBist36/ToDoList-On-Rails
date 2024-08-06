@@ -1,6 +1,19 @@
-<p>
-  <%= @task.title %>
-</p>
-<p>
-  <%= @task.description %>
-</p>
+<table class="task-table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><%= @task.title %></td>
+      <td><%= @task.description %></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div>
+  <%= link_to "Go To Index", root_path %>
+</div>

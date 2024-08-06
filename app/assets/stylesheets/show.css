@@ -1,0 +1,47 @@
+.task-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.task-table th, .task-table td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #6c7ae0;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+}
+
+.task-table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.task-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.task-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.task-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.task-table tbody tr td {
+  border-right: 1px solid #ddd;
+}
+
+.task-table tbody tr td:last-child {
+  border-right: none;
+}
